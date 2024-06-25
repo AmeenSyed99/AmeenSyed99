@@ -7,41 +7,98 @@
 </head>
 <body>
 <form action="">
+    <h1>CASE HISTORY</h1>
+    <h2>Patient Details</h2>
+    
     <div>
-        <label for="name field"> NAME: </label>
-        <input type="text" id="namefield" pattern="[A-Z,a-z]" placeholder="Enter your Name"/>
-        </div>
-
-        <div>
-            <label for="Age"> AGE: </label>
-               <input type="number" min="1" max="">
+        <h2><label for="name field"> NAME: </label>
+        <input type="text" id="namefield" pattern="[A-Z,a-z]" placeholder="Enter your Name"/></h2>
         </div>
         <div>
-            <label for="SEX"> SEX: </label>
+            <h2><label for="Age"> AGE: </label>
+               <input type="number" min="1" max=""></h2>
+        </div>
+        <div>
+            <h2><label for="SEX"> SEX: </label>
             <input type="radio" name="SEX" id="MALE"/>
             <label for="MALE"> MALE </label>
             <input type="radio" name="SEX" id="FEMALE"/>
-            <label for="FEMALE"> FEMALE </label>
+            <label for="FEMALE"> FEMALE </label></h2>
+            
         </div>
         <div>
-            <label for="EMAIL"> EMAIL: </label>
-            <input type="email" name="" placeholder="enter your email" id=""> 
+            <h2><label for="EMAIL"> EMAIL: </label>
+            <input  type="email" name="" placeholder="enter your email" id=""></h2> 
         </div>
         <div>
-            <label for="CONTACTNUMBER"> CONTACT NUMBER</label>
-            <input type="number"  name="CONTACTNUMBER" placeholder="enter the number" id="">
+            <h2><label for="CONTACTNUMBER"> CONTACT NUMBER</label>
+            <input type="number"  name="CONTACTNUMBER" placeholder="enter the number" id=""></h2>
         </div>
         <div>
-        <input type="date" name="enter the date" id="">
+        <h2><label for="date of birth">date of birth</label>
+            <input type="date" name="enter the date of birth" id=""></h2>
         </div>
-        <label for="Country"> Choose a Country</label>
+        <h2><label for="Country"> Choose a Country</label>
         <select name="Country" id="Country">
             <option value="select">select</option>
             <option value="INDIA">INDIA</option>
             <option value="PAKISTAN">PAKISTAN</option>
             <option value="SRILANKA">SRILANKA</option>
-            <option value="BANGLADESH">BANGLADESH</option>      
+            <option value="BANGLADESH">BANGLADESH</option>  
+        </h2>    
         </select>
+        <h1>PAST MEDICAL HISTORY</h1>
+        <aside>
+            <ol>
+                <li>
+            <h2><th>Hypertensive</th>
+            <input type="radio" name="Yes" id="">
+            <label for="Yes">Yes</label>
+            <input type="radio" name="No" id="">
+            <label for="No">No</label></h2>
+            </li>
+            </ol>
+            </aside>
+            <aside>
+            <ol start="2">
+                <li>
+            <h2><th>Diabetic mellitus</th>
+            <input type="radio" name="Yes" id="">
+            <label for="Yes">Yes</label>
+            <input type="radio" name="No" id="">
+            <label for="No">No</label></h2>
+            </li>
+            </ol>
+            </aside>
+            <aside>
+                <ol start="3">
+                    <li>
+                <h2><th>Hypo/Hyper-thyroidism</th>
+                <input type="radio" name="Yes" id="">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="No" id="">
+                <label for="No">No</label></h2>
+                </li>
+                </ol>
+                </aside>
+                <aside>
+                    <ol start="4">
+                        <li>
+                    <h2><th>Asthma</th>
+                    <input type="radio" name="Yes" id="">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" name="No" id="">
+                    <label for="No">No</label></h2>
+                    </li>
+                    </ol>
+                    </aside>
+    
+
+
+
+        
+
+
         
 </form>
 </body>
